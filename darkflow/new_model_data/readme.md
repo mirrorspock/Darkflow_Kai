@@ -1,0 +1,1 @@
+./flow --model ./cfg/yolov2-1c.cfg --load bin/yolov2.weights --train --annotation new_model_data/annotations --dataset new_model_data/images_done --gpu 0 --epoch 300
